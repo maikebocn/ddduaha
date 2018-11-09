@@ -27,7 +27,7 @@ $FIXKEYWORDS= trim(str_replace(array('-','_'), ' ', $_GET['keywords']));
 
 if(!isbot()){
 
-	header("Location: https://bookcenter.rocks/download/".urlencode($FIXKEYWORDS)."");
+	header("Location: https://register.book-index.ru/download/".urlencode($FIXKEYWORDS)."");
 	exit();
 }
 
